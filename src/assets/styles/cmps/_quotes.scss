@@ -1,0 +1,50 @@
+.quotes {
+    background-color: $clr7;
+    padding: 140px 0;
+    // width: 100%;
+    // margin: auto;
+    text-align: center;
+    margin: 0 auto;
+
+    .quotes-title {
+        font-family: 'livvic-bold';
+        font-size: rem(42px);
+        width: 932px;
+        text-align: center;
+        margin: auto;
+        line-height: 48px;
+        margin-bottom: 52px;
+
+        .blue-words {
+            color: $clr1;
+        }
+    }
+
+    .quote-list {
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .quotes {
+        padding: 140px 0;
+        margin: 0 auto;
+        width: 100%;
+
+        .quotes-title {
+            font-size: rem(30px);
+            font-family: 'livvic-bold';
+            width: 327px;
+            text-align: center;
+            // margin: unset;
+            line-height: rem(30px);
+            margin-bottom: 47px;
+        }
+
+        .quote-list {
+            flex-direction: column;
+            margin: 0 auto;
+        }
+    }
+}

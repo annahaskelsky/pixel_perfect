@@ -1,0 +1,12 @@
+@import "./setup/variables";
+@import "./setup//functions";
+@import "./setup/typography";
+@import "./basics/base";
+@import "./basics/helpers";
+@import "./basics/layout";
+
+@import "./cmps/navbar";
+@import "./cmps/quotes";
+@import "./cmps/quote-preview";
+@import "./cmps/hero";
+

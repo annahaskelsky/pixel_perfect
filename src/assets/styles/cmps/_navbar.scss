@@ -1,0 +1,31 @@
+.navbar {
+    font-size: rem(15px);
+    margin-top: 73px;
+    margin-bottom: 133px;
+
+    .logo-wrapper {
+        height: 40px;
+        width: 160px;
+        margin-right: -400px;
+    }
+
+    .contact-wrapper {
+        width: 153px;
+        height: 48px;
+        position: relative;
+
+        span {
+            font-size: rem(13px);
+            position: absolute;
+            top: 33%;
+            left: 50%;
+            transform: translate(-50%);
+        }
+    }
+
+    .nav-links {
+        .left-links {
+            gap: 40px;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.quote-preview {
+    width: 350px;
+    text-align: center;
+
+    .img-wrapper {
+        width: 67px;
+        height: 56px;
+        margin: auto;
+    }
+
+    .user-img-wrapper {
+        width: 124px;
+        height: 124px;
+        margin: auto;
+    }
+
+    p {
+        &.quote-txt {
+            font-size: rem(13px);
+            margin-top: -20px;
+        }
+    }
+
+    h5 {
+        &.quote-name {
+            color: $clr1;
+            font-family: 'livvic-bold';
+            font-size: rem(15px);
+            line-height: rem(28px);
+        }
+    }
+
+    h6 {
+        &.quote-job {
+            font-family: 'livvic-medium-italic';
+            font-size: rem(10px);
+            line-height: rem(18px);
+        }
+    }
+}
+
+@media screen and (max-width:580px) {
+    .quote-preview {
+        margin: 0 auto;
+    }
+}

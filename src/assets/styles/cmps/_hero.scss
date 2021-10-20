@@ -1,0 +1,25 @@
+.hero {
+    padding-bottom: 250px;
+    max-width: 1110px;
+    margin: auto;
+    .hero-title {
+        font-family: 'livvic-bold';
+        font-size: rem(97px);
+        line-height: rem(97px);
+        width: 635px;
+
+        span {
+            color: $clr3;
+        }
+    }
+
+    .img-wrapper {
+        width: 50px;
+        height: 4px;
+    }
+
+    .hero-txt {
+        font-size: rem(16px);
+        width: 445px;
+    }
+}
